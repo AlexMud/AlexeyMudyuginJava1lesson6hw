@@ -2,7 +2,7 @@ import Animals.Dog;
 import Animals.Cat;
 
 public class MainClass {
-
+// перечисление действий
     public static void main(String[] args) {
         Cat cat = new Cat("Tsarapka");
         cat.run(250);
