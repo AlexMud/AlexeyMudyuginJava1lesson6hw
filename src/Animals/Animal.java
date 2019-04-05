@@ -16,14 +16,14 @@ public abstract class Animal {
     }
 
     public void run(int dRun) {
-        System.out.println(this.name + " has run " + dRun + " m");
+        System.out.println(this.name + " has run " + dRun + " m"); // пробежал
     }
 
     public void swim(float dSwim) {
-        System.out.println(this.name + " has swum " + dSwim + " m");
+        System.out.println(this.name + " has swum " + dSwim + " m"); // проплыл
     }
 
     public void jump(float h) {
-        System.out.println(this.name + " has jumped at " + h + " m");
+        System.out.println(this.name + " has jumped at " + h + " m"); // прыгнул
     }
 }
